@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    height: 100vh; /*fazer com que o body ocupe a altura toda do navegador*/
+    width: 100vw;/*fara com que a largura ocupe a tela toda*/
+    display: flex;
+    justify-content: center; /*ira alinhar os conteudos no eixo horizontal */
+    align-items: center; /*ira alinhar os conteudos no eixo vertical*/
+    background-image: url("https://images.unsplash.com/photo-1531804055935-76f44d7c3621?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5MjMyNzg4Mw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+.caixa-maior {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px; /*ira deixar as bordas arredondadas*/
+    padding: 20px; /*ira distanciar um pouco os textos*/
+    width: 95%;
+    max-width: 450px;
+}
+
+.city {
+    border: none;
+    outline: none; /*tirar linha azul que o google coloca*/
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 50px);
+    
+}
+
+.search-button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ffffff3c;
+    cursor: pointer;
+    float: right; /*vai jogar o item para a direita*/
+
+
+}
+
+.img-search {
+    width: 20px;
+
+
+}
+
+.name-city {
+    color:#ffff;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+.caixa-media {
+    margin-top: 30px;
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 15px;
+}
+
+.caixa-menor {
+    display: flex; /*deixa os itens um do lado do outro*/
+    align-items: center;
+    margin-top: 20px;
+}
+
+.prevision-text {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
